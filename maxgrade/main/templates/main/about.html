@@ -1,0 +1,35 @@
+{% extends 'main/layout.html' %}
+
+{% block title%}О нас{% endblock %}
+
+{% block content %}
+{%load static%}
+
+<section class="travel_block" id="about_us">
+    <div class="about_team">
+        <p class="about_us_text">
+            Наша комманда
+        </p>
+        <div id="transcroller-body" class="aos-all">
+            <div class="about_us_people_area">
+                <div class="aos-item__inner" data-aos="fade-right" data-aos-duration="1000">
+                    <img src="{% static 'main/img/team/mark.jpg' %}" alt="">
+                    <p>Юнак Марк</p>
+                </div>
+                <div class="aos-item__inner" data-aos="flip-left" data-aos-duration="1000">
+                    <img src="{% static 'main/img/team/kirill.jpg' %}" alt="">
+                    <p>Кирилл Бобрик</p>
+                </div>
+                <div class="aos-item__inner" data-aos="flip-right" data-aos-duration="1000">
+                <img src="{% static 'main/img/team/german.jpg' %}" alt="" width="250px">
+                <p>Герман Журавель</p>
+                </div>
+                <div class="aos-item__inner" data-aos="fade-left" data-aos-duration="1000">
+                    <img src="{% static 'main/img/team/mrakobes.jpg' %}" alt="">
+                    <p>Ерохин Марк</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
