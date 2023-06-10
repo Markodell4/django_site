@@ -1,21 +1,22 @@
 .container {
-    padding: 16px;
-    font-family: 'BlueCurve';
-    background-color: #2b2b2b;
-    border-radius: 20px;
-    margin-bottom: 140px;
-    margin-top: 140px;
+  padding: 16px;
+  font-family: 'BlueCurve';
+  background-color: #2b2b2b;
+  border-radius: 20px;
+  margin-bottom: 140px;
+  margin-top: 140px;
 
 }
-  input[type=text], input[type=password] {
-    width: 100%;
-    padding: 15px;
-    margin: 5px 0 22px 0;
-    display: inline-block;
-    border: none;
-    background: #bbbeb5;
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #ffffff;
+  border: 2px solid #ff8800;
 }
-  h1{
+h1{
     text-align: center;
     color:#ff8800;
     font-family: 'BlueCurve';
@@ -29,46 +30,90 @@ b{
   font-size: 20px;
 }
   
-  input[type=text]:focus, input[type=password]:focus {
-    background-color: #ddd;
-    outline: none;
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #dddddd;
+  outline: none;
 }
   
-  hr {
-    border: 2px solid #000000;
-    margin-bottom: 25px;
+hr {
+  border: 2px solid #000000;
+  margin-bottom: 25px;
 }
-  .loginbtn {
-    background-color: #ff8800;
-    color: rgb(0, 0, 0);
-    padding: 16px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    width: 100px;
-    opacity: 0.9;
-    border-radius: 30px;
-    font-family: 'BlueCurve';
-    font-size: 20px;
-    font-weight: 1000;
-}
-  
-  .registerbtn:hover {
-    opacity:1;
-}
-
-  a {
-    color: rgb(255, 0, 212);
-  text-decoration: none;
-  font-weight: 1000;
+.loginbtn {
+  background-color:#ffffff;
+  color: rgb(0, 0, 0);
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 200px;
+  height: 60px;
+  opacity: 0.9;
+  border-radius: 30px;
+  font-family: 'BlueCurve';
   font-size: 20px;
+  font-weight: 1000;
 }
 
-  .signin {
-    background-color: #000000;
-    text-align: center;
-    border-radius: 30px;
-    color:#ffffff
+.loginbtn:hover{
+  background-color: #fff;
+}
+  
+.registerbtn:hover {
+  opacity:1;
+}
 
-  }
 
+
+a:hover{
+  color: #ffffff;
+}
+
+table{
+  justify-content: center;
+  display: flex;
+}
+
+tbody{
+  justify-content: center;
+  display: flex;
+}
+
+tr{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+label{
+  justify-content: center;
+  display: flex;
+  color:#ff8800;
+}
+
+.enter{
+  justify-content: center;
+  display: flex;
+}
+
+.enter_again_text{
+  justify-content: center;
+  display: flex;
+}
+
+.form_email{
+  justify-content: center;
+  display: flex;
+  width: 400px;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  border: 2px solid #ff8800;
+}
+
+.form_email_text{
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}

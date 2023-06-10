@@ -7,4 +7,8 @@ def about(request):
     return render(request, 'main/about.html')
 
 def registration(request):
-    return render(request, 'main/registration/login.html')
+    return render(request, 'registration/login.html')
+
+def shop(request):
+    return render(request, 'shop/list.html')
+

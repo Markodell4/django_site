@@ -76,7 +76,7 @@ section {
   padding: 30% 0;
 }
 
-.header .navbar a {
+.header .navbar a, .header .navbar li {
   display: block;
   margin: 2rem 0;
   font-size: 2rem;
@@ -84,6 +84,14 @@ section {
   text-decoration: none;
   transform: scale(1.05);
   transition: all .6s ease;
+  font-weight: 1000;
+}
+
+a {
+  color: #ff8800;;
+  text-decoration: none;
+  font-weight: 1000;
+  font-size: 20px;
 }
 
 .header .navbar a:hover,.header .navbar li:hover  {
