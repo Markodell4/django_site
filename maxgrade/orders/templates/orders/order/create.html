@@ -1,11 +1,11 @@
 {% extends "shop/base.html" %}
 
-{% block title %}Checkout{% endblock %}
+{% block title %}Страница покупки{% endblock %}
 
 {% block content %}
-    <h1>Checkout</h1>
+    <h1>Покупка:</h1>
     <div class="order-info">
-        <h3>Your order</h3>
+        <h3>Ваш заказ</h3>
         <ul>
             {% for item in cart %}
                 <li>
@@ -14,11 +14,11 @@
                 </li>
             {% endfor %}
         </ul>
-        <p>Total: ${{ cart.get_total_price }}</p>
+        <p>Всего: ${{ cart.get_total_price }}</p>
     </div>
     <form action="." method="post" class="order-form">
         {{ form.as_p }}
-        <p><input type="submit" value="Place order"></p>
+        <p><input type="submit" value="Оформить"></p>
         {% csrf_token %}
     </form>
 {% endblock %}

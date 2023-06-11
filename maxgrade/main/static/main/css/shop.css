@@ -186,3 +186,21 @@ table{
     color:#ebebeb;
     font-size: 30px;
 }
+
+.order-info h3{
+    display: flex;
+    justify-content: center;
+    color: #ff8800;
+    font-size: 30px;
+}
+main h1{
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+li {
+    color: #ffffff;
+    font-size: 20px;
+}
